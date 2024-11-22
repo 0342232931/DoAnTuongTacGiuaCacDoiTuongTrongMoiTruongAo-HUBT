@@ -1,0 +1,1471 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.51f1 (9f9d16c45e54) revision 10460438'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7876 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\Editor\2022.3.51f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/Unity/Project/F1
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49772
+Successfully changed project path to: E:/Unity/Project/F1
+E:/Unity/Project/F1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16612]  Target information:
+
+Player connection [16612]  * "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 2959253326 [EditorId] 2959253326 [Version] 1048832 [Id] WindowsEditor(7,SON) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16612] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16612] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 239.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.51f1 (9f9d16c45e54)
+[Subsystems] Discovering subsystems at path E:/Unity/Editor/2022.3.51f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Project/F1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x46b3)
+    Vendor:   Intel
+    VRAM:     3938 MB
+    Driver:   31.0.101.5333
+Initialize mono
+Mono path[0] = 'E:/Unity/Editor/2022.3.51f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Editor/2022.3.51f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/Editor/2022.3.51f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Editor/2022.3.51f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005854 seconds.
+- Loaded All Assemblies, in  2.107 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.396 seconds
+Domain Reload Profiling: 2504ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (488ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (1288ms)
+		LoadAssemblies (236ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1283ms)
+			TypeCache.Refresh (1281ms)
+				TypeCache.ScanAssembly (682ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (398ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.834 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.888 seconds
+Domain Reload Profiling: 6722ms
+	BeginReloadAssembly (1022ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (477ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (4634ms)
+		LoadAssemblies (4693ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (383ms)
+			TypeCache.Refresh (347ms)
+				TypeCache.ScanAssembly (216ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (888ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (654ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (533ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 8.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3256 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (127.9 KB). Loaded Objects now: 3724.
+Memory consumption went from 122.3 MB to 122.2 MB.
+Total: 9.465600 ms (FindLiveObjects: 0.713700 ms CreateObjectMapping: 0.222200 ms MarkObjects: 8.193300 ms  DeleteObjects: 0.334000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4037.647891 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Prefabs/little_boy_B.prefab
+  artifactKey: Guid(87a7b985b15a4244091de35d7df9169a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Prefabs/little_boy_B.prefab using Guid(87a7b985b15a4244091de35d7df9169a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ba0a79489486644a5dafa727f0575b26') in 0.708304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Prefabs/z_dummyProps/dprop_parkBench.prefab
+  artifactKey: Guid(0fbce79ca458c7e41950b64039ed5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Prefabs/z_dummyProps/dprop_parkBench.prefab using Guid(0fbce79ca458c7e41950b64039ed5847) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e4bf0ad61ddd4e8bbcdcdd877f62293a') in 0.140938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Prefabs/casual_Female_K.prefab
+  artifactKey: Guid(bcc8c8f342f71a7439ac0579aa86f030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Prefabs/casual_Female_K.prefab using Guid(bcc8c8f342f71a7439ac0579aa86f030) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e2c608da1527fb466cd96dff583c35d1') in 0.108666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Prefabs/z_dummyProps/dprop_chair.prefab
+  artifactKey: Guid(32e5504a73c63954b948e9947e5b9d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Prefabs/z_dummyProps/dprop_chair.prefab using Guid(32e5504a73c63954b948e9947e5b9d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '11b7fbf0eac34ca6c04e2cda740c8376') in 0.053291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Prefabs/z_dummyProps/dprop_streetSign.prefab
+  artifactKey: Guid(c01b96ed1ad990043a05e4d301a114a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Prefabs/z_dummyProps/dprop_streetSign.prefab using Guid(c01b96ed1ad990043a05e4d301a114a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '557a34eb42d045e50417244783623e09') in 0.047195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Prefabs/police_Female_A.prefab
+  artifactKey: Guid(f0ac6fb9ada49f24683e3eca20786103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Prefabs/police_Female_A.prefab using Guid(f0ac6fb9ada49f24683e3eca20786103) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c0c18971bd16206b9538c144e8457c2b') in 0.114238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Prefabs/z_dummyProps/dprop_tree0.prefab
+  artifactKey: Guid(48f6efc593b2b03439faeff35c83334c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Prefabs/z_dummyProps/dprop_tree0.prefab using Guid(48f6efc593b2b03439faeff35c83334c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9cd4793ab3b80eb9bd350045dbebd0f5') in 0.041825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Prefabs/z_dummyProps/dprop_trashBin.prefab
+  artifactKey: Guid(1c038a54d36c8584faa7297ad9353f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Prefabs/z_dummyProps/dprop_trashBin.prefab using Guid(1c038a54d36c8584faa7297ad9353f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f8b9f56b14353986fc38508800983534') in 0.040725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Prefabs/casual_Male_G.prefab
+  artifactKey: Guid(f71041fd118fbb34aa9d2dd6a1d96fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Prefabs/casual_Male_G.prefab using Guid(f71041fd118fbb34aa9d2dd6a1d96fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5c1bcdd5da57c8fc7c77919376a3a395') in 0.108061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Prefabs/elder_Female_A.prefab
+  artifactKey: Guid(bcc8732b8b44622449c23934f89e68c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Prefabs/elder_Female_A.prefab using Guid(bcc8732b8b44622449c23934f89e68c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2f2470c14f96450128cadec8097fba02') in 0.135036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Prefabs/z_dummyProps/dprop_bicycle.prefab
+  artifactKey: Guid(70d20ff69b07b984ba5cc86bdca25457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Prefabs/z_dummyProps/dprop_bicycle.prefab using Guid(70d20ff69b07b984ba5cc86bdca25457) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fa54baf8077a5ff446c5cc012177ddf8') in 0.039061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Prefabs/z_dummyProps/dprop_tree3.prefab
+  artifactKey: Guid(24a5a256d07062b41a8d320df05e110f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Prefabs/z_dummyProps/dprop_tree3.prefab using Guid(24a5a256d07062b41a8d320df05e110f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aec50f3ee759c452482d9815e3815f9f') in 0.040745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.948 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.888 seconds
+Domain Reload Profiling: 7837ms
+	BeginReloadAssembly (1440ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (103ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (634ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (1333ms)
+		LoadAssemblies (1718ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (43ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (4890ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1357ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (1072ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 9.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (99.7 KB). Loaded Objects now: 3748.
+Memory consumption went from 127.1 MB to 127.0 MB.
+Total: 11.562500 ms (FindLiveObjects: 0.573300 ms CreateObjectMapping: 0.422900 ms MarkObjects: 10.461800 ms  DeleteObjects: 0.102000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.754 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.345 seconds
+Domain Reload Profiling: 5102ms
+	BeginReloadAssembly (302ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (369ms)
+		LoadAssemblies (513ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (4346ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1356ms)
+			LogAssemblyErrors (1ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (1099ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 10.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3248 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (99.7 KB). Loaded Objects now: 3763.
+Memory consumption went from 127.4 MB to 127.3 MB.
+Total: 8.980500 ms (FindLiveObjects: 0.400600 ms CreateObjectMapping: 0.186400 ms MarkObjects: 7.879700 ms  DeleteObjects: 0.511200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8850.734771 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/casual_Female_K.fbx
+  artifactKey: Guid(b6dde1c6fee9fe4478fbb2c3a0c333b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/casual_Female_K.fbx using Guid(b6dde1c6fee9fe4478fbb2c3a0c333b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '45a826d4bb6477bb27af606a7e1f78e9') in 0.265871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/Doctor_Male_B.fbx
+  artifactKey: Guid(87dd643ab949229418ba9400e67cf1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/Doctor_Male_B.fbx using Guid(87dd643ab949229418ba9400e67cf1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '351375843abddec669f9444c677a5727') in 0.098329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/casual_Male_K.fbx
+  artifactKey: Guid(b7c035cdee4609f4689888a8474b63b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/casual_Male_K.fbx using Guid(b7c035cdee4609f4689888a8474b63b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '81ab94d2b820cd9e62d0c1a6b45343f5') in 0.090053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/casual_Male_G.fbx
+  artifactKey: Guid(50c8fe73844fb0a42bdb72b9873224e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/casual_Male_G.fbx using Guid(50c8fe73844fb0a42bdb72b9873224e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '484d43d9c8e148bcc30ecbeccc33f786') in 0.063191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 3.791549 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_bicycle.fbx
+  artifactKey: Guid(8a4f704e60b3f704cbcb213ac237deff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_bicycle.fbx using Guid(8a4f704e60b3f704cbcb213ac237deff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '12e7ad2ebc041f0f01336f0c26094e10') in 0.132608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/plane_floor.fbx
+  artifactKey: Guid(02feb4b17ca061f4492c38fd726a4fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/plane_floor.fbx using Guid(02feb4b17ca061f4492c38fd726a4fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8b8aa499f7ef4f689f99103c32fac13a') in 0.052623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_tree2.fbx
+  artifactKey: Guid(16b608ef07e7a6045981eb292b107e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_tree2.fbx using Guid(16b608ef07e7a6045981eb292b107e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '896d4d56412036acbca71d291af40c1b') in 0.056121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_plantPot.fbx
+  artifactKey: Guid(e0f2c977fe35cf44986c7e9562a0af20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_plantPot.fbx using Guid(e0f2c977fe35cf44986c7e9562a0af20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b3ded31f8e487e421b6601830a95a93b') in 0.044483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_parkBench.fbx
+  artifactKey: Guid(bc9018851dfbce54cb941d9480a01db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_parkBench.fbx using Guid(bc9018851dfbce54cb941d9480a01db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '10bcb5e6b35a7bb088a186db8f44f66c') in 0.063416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_trashBin.fbx
+  artifactKey: Guid(0a0cd7c36a8362944824d4b973a5593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_trashBin.fbx using Guid(0a0cd7c36a8362944824d4b973a5593f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9bf7b4aeef82a4c801594d5db409cb89') in 0.048475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_streetSign.fbx
+  artifactKey: Guid(4abb9de5b82a2b74ba9a37ae19b25dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_streetSign.fbx using Guid(4abb9de5b82a2b74ba9a37ae19b25dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4ed5bd3b5208bf00724eeaf0fc21622b') in 0.051137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_tree0.fbx
+  artifactKey: Guid(61fade2eb4accc142a402ba0ada13415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_tree0.fbx using Guid(61fade2eb4accc142a402ba0ada13415) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5889c6cd7219d134c307b6f3c38b4362') in 0.055706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_tree3.fbx
+  artifactKey: Guid(6f35b52d0fe0e334f907ce076ceba661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_tree3.fbx using Guid(6f35b52d0fe0e334f907ce076ceba661) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cd3ad1bce0a0994340e98055456e902d') in 0.050210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_roundTable.fbx
+  artifactKey: Guid(ea9e7c8baf10871478c988d7502a26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_dummyProps/dprop_roundTable.fbx using Guid(ea9e7c8baf10871478c988d7502a26e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b2f9b833a67fd7c6534f1b1e7770e821') in 0.052441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 4.325444 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/dance_f_flossing_48f.fbx
+  artifactKey: Guid(5b089a468d3d6a645a0194b9e381d959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/dance_f_flossing_48f.fbx using Guid(5b089a468d3d6a645a0194b9e381d959) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3451343fa668baebe73a991af93b4bdd') in 0.090451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/Tpose_lpMale_rig.FBX
+  artifactKey: Guid(379bbfa8110786c49953a0e1575f1f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/Tpose_lpMale_rig.FBX using Guid(379bbfa8110786c49953a0e1575f1f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '28bfd8670b50b37a3cfa3603939b6d21') in 0.088068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/locom_m_running_20f.fbx
+  artifactKey: Guid(7c14dd2471ac270479f0f37d1a44e185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/locom_m_running_20f.fbx using Guid(7c14dd2471ac270479f0f37d1a44e185) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b0315f4be157f14c4ae73abdfe346b33') in 0.076260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/idle_f_1_150f.fbx
+  artifactKey: Guid(0cac3c50cffd14044b6352edd76b2cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/idle_f_1_150f.fbx using Guid(0cac3c50cffd14044b6352edd76b2cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c3fa1042d57ef6b4912c54ac907e4c68') in 0.084285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/locom_m_slowWalk_40f.fbx
+  artifactKey: Guid(0c6daf1879bef5640b4cf41de422d655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/locom_m_slowWalk_40f.fbx using Guid(0c6daf1879bef5640b4cf41de422d655) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b8d9f04eb6dde0f8c8b9bb068339d5a9') in 0.067021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/locom_f_basicWalk_30f.fbx
+  artifactKey: Guid(a9ce97152abb7fc41ae2a29525434851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/locom_f_basicWalk_30f.fbx using Guid(a9ce97152abb7fc41ae2a29525434851) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3dbf54d4b5847ef255478a5fcc3dc8dd') in 0.078369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/locom_f_running_20f.fbx
+  artifactKey: Guid(a03f918c5bc120949817620476cb0a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/locom_f_running_20f.fbx using Guid(a03f918c5bc120949817620476cb0a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cb09ae30fa70d1c65e2668005fa0da66') in 0.075391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/locom_f_phoneWalking_40f.fbx
+  artifactKey: Guid(a589e693a8baf10489fd11987487a4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/locom_f_phoneWalking_40f.fbx using Guid(a589e693a8baf10489fd11987487a4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5b564aa2acf160f64bddd80631894747') in 0.078653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/idle_f_2_190f.fbx
+  artifactKey: Guid(ea917c84da27c514c89479d48da89544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/idle_f_2_190f.fbx using Guid(ea917c84da27c514c89479d48da89544) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7f74f05bd140551bc9b1e2f475a9dfa1') in 0.066320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/dance_m_flossing_40f.fbx
+  artifactKey: Guid(a0c0a4d38207089439b8f72a52ad58d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/dance_m_flossing_40f.fbx using Guid(a0c0a4d38207089439b8f72a52ad58d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4688945b5b22a20327ae11d84c7451aa') in 0.080896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/idle_m_2_220f.fbx
+  artifactKey: Guid(40d3a309e9945334284a3a33b46139e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/idle_m_2_220f.fbx using Guid(40d3a309e9945334284a3a33b46139e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b0a2a2e5f61b40f64e5e2c7026379757') in 0.073878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/idle_phoneTalking_180f.fbx
+  artifactKey: Guid(3975160a0bfe0d94098f615c8283969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Meshes/z_animated/idle_phoneTalking_180f.fbx using Guid(3975160a0bfe0d94098f615c8283969c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ae0695c1874249dc27d7c866e3b68033') in 0.070099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 21.574883 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Materials/disaProps.mat
+  artifactKey: Guid(723ed4c8a00fd5546bf0bb71d745a59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Materials/disaProps.mat using Guid(723ed4c8a00fd5546bf0bb71d745a59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bdc45f43138aa9660be7c1b3c1ece08c') in 0.214157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s6.mat
+  artifactKey: Guid(214522dcab1b87643901ca3e37cb7f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s6.mat using Guid(214522dcab1b87643901ca3e37cb7f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8ec0aa78624be6fb1b6641b3f6cf66e6') in 0.036523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s12.mat
+  artifactKey: Guid(82c4123564d8c434394d3990eff760c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s12.mat using Guid(82c4123564d8c434394d3990eff760c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ff1694c85d0062f8c664ffbfdaeeb026') in 0.044962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s3.mat
+  artifactKey: Guid(359837a54b0753e46b013482470eb04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s3.mat using Guid(359837a54b0753e46b013482470eb04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4d0dcb95c4779d3892086ef253f12801') in 0.037792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s21.mat
+  artifactKey: Guid(3cda4225e521fd9419bf97dc1205c59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s21.mat using Guid(3cda4225e521fd9419bf97dc1205c59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '09180ac2eabbbc4b7036e2d79796be82') in 0.022637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s7.mat
+  artifactKey: Guid(8a4c0608505ce7f48a34133b4e28f67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s7.mat using Guid(8a4c0608505ce7f48a34133b4e28f67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6c87c26f861a70b1e76730b9ceb6cc24') in 0.031202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s13.mat
+  artifactKey: Guid(02cbbe825fdd71a4a9158ac61c12851a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s13.mat using Guid(02cbbe825fdd71a4a9158ac61c12851a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e3148c13d133b853de854ac01cba9d0c') in 0.041720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s9.mat
+  artifactKey: Guid(f06d56350a4f9b541b307e1a36ea9144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s9.mat using Guid(f06d56350a4f9b541b307e1a36ea9144) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5fe3463cf050081b9b027a21d0e07d40') in 0.041205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s4.mat
+  artifactKey: Guid(a53b5cf10715ebd49b6eb951b3b62c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s4.mat using Guid(a53b5cf10715ebd49b6eb951b3b62c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'daef77d2352c60c0c090efbddcbc287c') in 0.033837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s18.mat
+  artifactKey: Guid(d326e4d2c16efea41870b40bfcd95ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s18.mat using Guid(d326e4d2c16efea41870b40bfcd95ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3cb74b44880cbef370ab7ef342ce336f') in 0.039035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s2.mat
+  artifactKey: Guid(1d95677abf7c15c4db76fd18761f08c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s2.mat using Guid(1d95677abf7c15c4db76fd18761f08c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ac17763ba4cb91c3b6656007aa4c10f0') in 0.040655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s20.mat
+  artifactKey: Guid(82f0aa2bc0c03634193a2331e5b66c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal_s20.mat using Guid(82f0aa2bc0c03634193a2331e5b66c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7233ffce97cf9a8b37f3e8ebd38cce9e') in 0.053330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal.mat
+  artifactKey: Guid(c2de9ee12d731e14e93392e0a8046454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Materials/people_pal.mat using Guid(c2de9ee12d731e14e93392e0a8046454) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e1bfa092cc81962df5b2bc607d6ccf08') in 0.199154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 182.578328 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/beach_acc_pal_DummyGray.png
+  artifactKey: Guid(86c6df6b3cd2ef4419fc9e8674fc292f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/beach_acc_pal_DummyGray.png using Guid(86c6df6b3cd2ef4419fc9e8674fc292f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5e5dab81f76f6acec794e6e9d97963fa') in 0.039979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/DummyProp_s2.png
+  artifactKey: Guid(b2be3cfdbda6c3941b312e9c50dd4549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/DummyProp_s2.png using Guid(b2be3cfdbda6c3941b312e9c50dd4549) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6865c9a4c8d312309b6e6840a18b80e5') in 0.029396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_s12.png
+  artifactKey: Guid(1005f44cba64e0545b816df2322b1ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_s12.png using Guid(1005f44cba64e0545b816df2322b1ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2e93b9993165e8fa0771a89b96c4c530') in 0.031365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_s18.png
+  artifactKey: Guid(7be4229309293414cbe6cdffd67aada9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_s18.png using Guid(7be4229309293414cbe6cdffd67aada9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ab10f88b666c6f2c3647b0d88c8c653a') in 0.035267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_fam.png
+  artifactKey: Guid(d6ab8c0b6ecd0894baae127aa7e48aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_fam.png using Guid(d6ab8c0b6ecd0894baae127aa7e48aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '348a878081fcdefe9e68d1c338c8b954') in 0.031349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_s16.png
+  artifactKey: Guid(dcb30c3d715de094caf36c6e9ac128a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_s16.png using Guid(dcb30c3d715de094caf36c6e9ac128a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2df76d00098bc195f5a7228c845f1956') in 0.030767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/DummyProp_desert.png
+  artifactKey: Guid(01a90f6bee29fcc4f8d9be831dade87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/DummyProp_desert.png using Guid(01a90f6bee29fcc4f8d9be831dade87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bf519aae2cb5fa0944ca7c3dd2a4ec0a') in 0.032474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_s19.png
+  artifactKey: Guid(fad2faa9508aeb44d8d0595d28b1d06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_s19.png using Guid(fad2faa9508aeb44d8d0595d28b1d06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '69837af0b00d6bd11a9bece3b91eb439') in 0.032631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_s17.png
+  artifactKey: Guid(aec3bdee4da40274f923b32a60af2ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_s17.png using Guid(aec3bdee4da40274f923b32a60af2ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '31e116d0e65cad9099e002b8dbea7d88') in 0.033171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_s21.png
+  artifactKey: Guid(27518883091fcb84d98169124e4c347d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_s21.png using Guid(27518883091fcb84d98169124e4c347d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4bb828738bc2e08cf7c49216f80817c0') in 0.031311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_s5.png
+  artifactKey: Guid(f2d8269be8752504dab3342d0c80f371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_s5.png using Guid(f2d8269be8752504dab3342d0c80f371) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '485c5f3c79856fc3dfc7bd3a690ba37f') in 0.031657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/disaProps_metal_glossAlpha.png
+  artifactKey: Guid(dc7507575a1802e4996270c13ac27405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/disaProps_metal_glossAlpha.png using Guid(dc7507575a1802e4996270c13ac27405) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8015947e9f58e6e5f530c346342c0484') in 0.031773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_check.png
+  artifactKey: Guid(fbd29e78a14e5224eaaaf0af35f976af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_check.png using Guid(fbd29e78a14e5224eaaaf0af35f976af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8f0960c2ade97047fb2a80dfb029954d') in 0.030165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/DummyProp_bluep.png
+  artifactKey: Guid(7387e952669dcad4488a2a4fb57775b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/DummyProp_bluep.png using Guid(7387e952669dcad4488a2a4fb57775b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '36e350b9589eca9ce5c3130dcff6d5e1') in 0.031337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_metal_gloss.png
+  artifactKey: Guid(3238c744c76be29449996e23b350a82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_metal_gloss.png using Guid(3238c744c76be29449996e23b350a82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9f45979cc832069f49efbe58ce1b5993') in 0.031799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_s4.png
+  artifactKey: Guid(2cae7cfe2fb5d0e41ba90c5a75a97f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/people_pal_s4.png using Guid(2cae7cfe2fb5d0e41ba90c5a75a97f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6e863714c32fa1c0ba2f928d3cb520d8') in 0.032878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Textures/DummyProp.png
+  artifactKey: Guid(bbd7ccc642f84cb4da44c41e272b89c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Textures/DummyProp.png using Guid(bbd7ccc642f84cb4da44c41e272b89c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8aaa4adb440cfff1b47ac772846f8b6a') in 0.032357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.881153 seconds.
+  path: Assets/DenysAlmaral/CityPeople-FREE/Documentation/images/PaletteTextures.png
+  artifactKey: Guid(821e49ed80d2ff94ca682ff1630e2cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeople-FREE/Documentation/images/PaletteTextures.png using Guid(821e49ed80d2ff94ca682ff1630e2cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '518745285e6bcfca68874d9a642ce815') in 0.047975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.664 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.436 seconds
+Domain Reload Profiling: 3102ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (470ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2438ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1258ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (995ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 10.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (98.8 KB). Loaded Objects now: 3818.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 8.866800 ms (FindLiveObjects: 0.796100 ms CreateObjectMapping: 0.145000 ms MarkObjects: 7.709100 ms  DeleteObjects: 0.213800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.582 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.717 seconds
+Domain Reload Profiling: 2299ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (396ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1718ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1114ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (906ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 11.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (98.8 KB). Loaded Objects now: 3833.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 16.131300 ms (FindLiveObjects: 7.742600 ms CreateObjectMapping: 0.575000 ms MarkObjects: 7.644300 ms  DeleteObjects: 0.162200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.623 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.092 seconds
+Domain Reload Profiling: 3716ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (314ms)
+		LoadAssemblies (447ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (3093ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1051ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (846ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 10.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (98.9 KB). Loaded Objects now: 3848.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 8.275100 ms (FindLiveObjects: 1.142900 ms CreateObjectMapping: 0.227200 ms MarkObjects: 6.615100 ms  DeleteObjects: 0.282900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.616 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.282 seconds
+Domain Reload Profiling: 3899ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (399ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (3284ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1287ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (1063ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 9.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (98.9 KB). Loaded Objects now: 3863.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 10.973200 ms (FindLiveObjects: 1.104700 ms CreateObjectMapping: 0.910900 ms MarkObjects: 8.636700 ms  DeleteObjects: 0.315200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.546 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.946 seconds
+Domain Reload Profiling: 2493ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1947ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1160ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (938ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 6.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (98.8 KB). Loaded Objects now: 3878.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 6.698800 ms (FindLiveObjects: 0.731500 ms CreateObjectMapping: 0.383500 ms MarkObjects: 5.482500 ms  DeleteObjects: 0.099700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.608 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.835 seconds
+Domain Reload Profiling: 2445ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (402ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1837ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1150ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (934ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 8.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3247 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (98.8 KB). Loaded Objects now: 3893.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 8.639700 ms (FindLiveObjects: 1.682100 ms CreateObjectMapping: 0.512600 ms MarkObjects: 6.288600 ms  DeleteObjects: 0.151500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
